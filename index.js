@@ -31,12 +31,12 @@ app.get('/', (req, res) => {
   res.send('YaY Your Bot Status Changed✨');
 });
 app.listen(port, () => {
-  console.log(`🔗 Listening to RTX: http://localhost:${port}`);
-  console.log(`🔗 Powered By RTX`);
+  console.log(`🔗 Listening to Strive Host${port}`);
+  console.log(`🔗 Powered Strive Host`);
 });
 
 
-const statusMessages = ["dicord.gg/ValoVault"];
+const statusMessages = ["Strive Host"];
 
 
 let currentIndex = 0;

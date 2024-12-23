@@ -31,12 +31,12 @@ app.get('/', (req, res) => {
   res.send('YaY Your Bot Status Changed✨');
 });
 app.listen(port, () => {
-  console.log(`🔗 Listening to Strive Host${port}`);
-  console.log(`🔗 Powered Strive Host`);
+  console.log(`🔗 Calite Roleplay${port}`);
+  console.log(`🔗 Calite On Top`);
 });
 
 
-const statusMessages = ["Strive Host"];
+const statusMessages = ["CaliteOnTop"];
 
 
 let currentIndex = 0;
